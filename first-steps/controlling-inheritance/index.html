@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>controlling inheritance</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+
+    <body>
+        
+        <ul>
+            <li>Default <a href="#">link</a> color</li>
+            <li class="my-class-1">Inherit the 
+                <a href="#">link</a>
+                 color: takes the color rule of the parent (body), so it gets green
+            </li>
+            <li class="my-class-2">Reset the 
+                <a href="#">link</a>
+                 color: takes the default color of the anchor (a), so it's black  
+            </li>
+            <li class="my-class-3">Unset the 
+                <a href="#">link</a>
+                 color: removes the default color rule and inherits from parent (body), so it's green
+            </li>
+        </ul>     
+        
+        <blockquote>
+            <p>This blockquote is styled</p>
+        </blockquote>
+
+        <blockquote class="fix-this">
+            <p>This blockquote is not styled</p>
+        </blockquote>
+        
+
+    </body>
+</html>
